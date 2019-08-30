@@ -1,5 +1,14 @@
 ```php
 
+use HtmlSanitizer\Extension\Basic\BasicExtension;
+use HtmlSanitizer\Extension\Iframe\IframeExtension;
+use HtmlSanitizer\Extension\Listing\ListExtension;
+use HtmlSanitizer\Extension\Table\TableExtension;
+use Sanitizer\Extension\Image\ImageExtension;
+use Sanitizer\Extension\A\AExtension;
+use HtmlSanitizer\SanitizerBuilder;
+
+
 $builder = new SanitizerBuilder();
 $builder->registerExtension(new BasicExtension());
 $builder->registerExtension(new ListExtension());
