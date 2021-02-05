@@ -1,3 +1,9 @@
+Composer version https://github.com/olegatro/html-sanitizer-relative
+
+***
+
+Don`t use this repository.
+
 ```php
 
 use HtmlSanitizer\Extension\Basic\BasicExtension;
